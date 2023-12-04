@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('back.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+   
+}
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #li {
+    float: left;
+   
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(125, 125, 14);
+  }
+   
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#home {
+    text-align: center;
+}
+
+#group-members {
+    color: white;
+    font-size: 33px;
+    padding: 20px;
+    list-style-type: square;
+}
+
+#contact-us {
+    margin-top: 20px;
+}
+
+#contact-form {
+    text-align: left;
+}
+
+#member-list li {
+   font-size: 30px;
+    margin: 5px;
+    list-style-type: square;
+}
+
+
+
+.photo{
+    width: 1088px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 160px;
+
+}
+#video{
+    margin-top: 30px;
+    margin-left: 250px;
+    width :900 ; 
+    ;height :700;
+}
+#form{
+    color: yellow;
+    margin-top: 150px;
+    font-size: 20px;
+   
+}
+.welcome{
+width: 1400px;
+height: 325px;
+margin-top: 20px;
+margin-left: 5px;
+}
+#cf{
+ font-size: 20px;
+ color: white;
+ margin-left: 100px;
+}
+#fixed{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 2px;
+}
